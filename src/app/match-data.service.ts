@@ -1,27 +1,22 @@
 import { Injectable } from '@angular/core';
 import * as data from '../assets/en.1.json';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class MatchDataService {
   data_match = data;
-  constructor() {
-   }
-   
-   getData(){
-      let datum: Array<any> = []
-      //console.log(this.data_match.rounds);
-      for (var i=0; i< this.data_match.rounds.length; i++){
-        var ar = this.data_match.rounds[i];
-        for (var j=0; j< ar.matches.length; j++)
-        {
-          datum.push(ar.matches[j])
-        }
-      }
-      return datum;
-      //return this.data_match
-   }
+
+  url ='https://raw.githubusercontent.com/openfootball/football.json/master/2015-16/en.1.json';
+  constructor(private http: HttpClient) {}
+
+  getData() {
+    return this.http
+      .get(this.url)
+      .toPromise()
+      .then((data) => {
+        return data;
+      });
+  }
 }
-
-

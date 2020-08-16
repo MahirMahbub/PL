@@ -1,0 +1,63 @@
+table {
+    width: 100%;
+    justify-content: center;
+  }
+
+.ngx-pagination{
+  width: 80%;
+}
+.bar{
+  height: 5% !important;
+  background-color: #1565c0 ;
+  display: flex;
+}
+
+.imgs{
+  object-fit: contain;
+  float: left;
+}
+
+.left {
+  float:left;
+  width:10% !important;
+}
+
+.center {
+  display: inline-block;
+  margin:0 auto;
+  width:80%;
+  position: relative;
+  justify-content: center;
+
+}
+.mat-header-cell {
+  text-align: center;    
+}
+
+.right {
+  float:right;
+  width:10%;
+}
+
+.container {
+  width:100%;
+  text-align:center;
+}
+
+.title{
+  justify-content: center;
+}
+
+.mat-column-Date {
+  flex: none;
+  width: 20%;
+}
+.mat-column-Teams {
+  flex: none;
+  width: 60%;
+}
+
+.mat-column-Score {
+  flex: none;
+  width: 20%;
+}
