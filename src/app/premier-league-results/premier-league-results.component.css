@@ -51,13 +51,22 @@ table {
 .mat-column-Date {
   flex: none;
   width: 20%;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
 }
 .mat-column-Teams {
   flex: none;
   width: 60%;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
 }
 
 .mat-column-Score {
   flex: none;
   width: 20%;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
 }

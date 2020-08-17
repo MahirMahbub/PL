@@ -47,7 +47,7 @@ export class PremierLeagueResultsComponent implements OnInit {
             date:j.date,
             team1:j.team1,
             team2:j.team2,
-            score:j.score.ft[0] +'-' + j.score.ft[1]
+            score:j.score.ft[0] +' - ' + j.score.ft[1]
           })
         }
     }
