@@ -4,6 +4,8 @@
 
 ![alt text](https://github.com/MahirMahbub/PL/blob/master/Task1.png)
 
+## Task 3
+See the Task3.ts file or the Task 3 brach. Though Braches are merged. You can also find it in main branch.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
